@@ -1,0 +1,116 @@
+/* For Desktop View */
+@media screen and (min-width: 200px)
+{
+    body
+{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+div
+{
+    margin: 0 auto;
+    width: 20rem;
+    height: 30rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10mm;
+    justify-content: center;
+}
+img
+{
+    margin: 0 auto;
+    display: block;
+    border-radius: 10mm;
+    margin-top: 10px;
+}
+h1
+{
+    font-size: 1.35rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    width: 290px;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+p
+{
+    font-size: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    width: 300px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+h3 
+{
+    text-align: center;
+    font-size: 0.9rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+}
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 1000px)
+and (orientation: portrait) 
+{
+    body
+    {
+        background-color: hsl(212, 45%, 89%);
+        font-family: 'Outfit', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+    div
+    {
+        margin: 0 auto;
+        width: 20rem;
+        height: 30rem;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 10mm;
+        justify-content: center;
+    }
+    img
+    {
+        margin: 0 auto;
+        display: block;
+        border-radius: 10mm;
+        margin-top: 10px;
+    }
+    h1
+    {
+        font-size: 1.35rem;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight: 500;
+        width: 290px;
+        color: hsl(218, 44%, 22%);
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    p
+    {
+        font-size: 1rem;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight: 500;
+        width: 300px;
+        color: hsl(220, 15%, 55%);
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    h3 
+{
+    text-align: center;
+    font-size: 0.9rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+}
